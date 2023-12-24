@@ -1,6 +1,6 @@
 ## Optional is dead, long live pattern matching!
-Just kidding. Optional is probably getting a deconstructor once Valhalla comes around
-(more on that later). Anyway, Java 21's record patterns + pattern matching for switch 
+Just kidding. Optional is probably getting a deconstructor once Valhalla comes around. 
+Anyway, Java 21's record patterns + pattern matching for switch 
 open the door for some very expressive code.  The ability to destructure any Record 
 into its members within a type match allows for type safe manipulation of inner values. 
 What you could only do with either `Optional.isPresent()` or `Optional.orElseGet(...)`:
